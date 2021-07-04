@@ -10,7 +10,6 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "install": "node install.js"
   },
   "dependencies": {},
   "engines": {
