@@ -1,6 +1,6 @@
 {
   "name": "codecontrollibrary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to help enforce coding practices",
   "main": "lib/index.js",
   "scripts": {
