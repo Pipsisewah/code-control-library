@@ -2,7 +2,7 @@
     "name": "codecontrollibrary",
     "author": "Steven Lopes",
     "description": "Library to help enforce coding practices",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "homepage": "https://slopesprogramming.com",
     "repository": {
         "type": "git",
@@ -12,7 +12,8 @@
     "scripts": {
         "tprint": "echo 'hello world'",
         "install": "echo 'install would run this script'",
-        "test": "mocha; prettier --write --check ."
+        "test": "mocha; prettier --write --check .",
+        "postinstall": "husky install"
     },
     "bin": {
         "github-pages-commit": "bin/commit.js"
