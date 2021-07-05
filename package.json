@@ -1,21 +1,32 @@
 {
-  "name": "codecontrollibrary",
-  "author": "Steven Lopes",
-  "description": "Library to help enforce coding practices",
-  "version": "1.0.5",
-  "homepage": "https://slopesprogramming.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Pipsisewah/code-control-library"
-  },
-  "main": "lib/index.js",
-  "scripts": {
-    "tprint": "echo 'hello world'",
-    "install": "echo 'install would run this script'"
-  },
-  "dependencies": {},
-  "engines": {
-    "node": ">=12.0"
-  },
-  "license": "MIT"
+    "name": "codecontrollibrary",
+    "author": "Steven Lopes",
+    "description": "Library to help enforce coding practices",
+    "version": "1.0.6",
+    "homepage": "https://slopesprogramming.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pipsisewah/code-control-library"
+    },
+    "main": "lib/index.js",
+    "scripts": {
+        "tprint": "echo 'hello world'",
+        "install": "echo 'install would run this script'",
+        "test": "mocha; prettier --write --check ."
+    },
+    "bin": {
+        "github-pages-commit": "bin/commit.js"
+    },
+    "dependencies": {
+        "shelljs": "^0.8.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.30.0",
+        "husky": "^7.0.0",
+        "prettier": "2.3.2"
+    },
+    "engines": {
+        "node": ">=12.0"
+    },
+    "license": "MIT"
 }
