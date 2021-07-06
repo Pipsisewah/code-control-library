@@ -2,7 +2,7 @@
     "name": "codecontrollibrary",
     "author": "Steven Lopes",
     "description": "Library to help enforce coding practices",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "homepage": "https://slopesprogramming.com",
     "repository": {
         "type": "git",
