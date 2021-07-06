@@ -19,12 +19,10 @@
         "github-pages-commit": "bin/commit.js"
     },
     "dependencies": {
-        "shelljs": "^0.8.4"
-    },
-    "devDependencies": {
         "eslint": "^7.30.0",
         "husky": "^7.0.0",
-        "prettier": "2.3.2"
+        "prettier": "2.3.2",
+        "shelljs": "^0.8.4"
     },
     "engines": {
         "node": ">=12.0"
