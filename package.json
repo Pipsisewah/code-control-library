@@ -13,11 +13,10 @@
         "tprint": "echo 'hello world'",
         "install": "echo 'install would run this script'",
         "test": "mocha; prettier --write --check .",
-        "setup": "cd ../../ && npm install husky@4.3.0 && npx husky-init"
+        "setup": "cd ../../ && npm install --save-dev husky@7.0.0"
     },
     "dependencies": {
         "eslint": "^7.30.0",
-        "husky": "^4.3.0",
         "prettier": "2.3.2"
     },
     "engines": {
