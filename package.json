@@ -2,7 +2,7 @@
     "name": "codecontrollibrary",
     "author": "Steven Lopes",
     "description": "Library to help enforce coding practices",
-    "version": "1.1.8",
+    "version": "1.2.0",
     "homepage": "https://slopesprogramming.com",
     "repository": {
         "type": "git",
@@ -14,7 +14,7 @@
         "install": "echo 'install would run this script'",
         "postinstall": "if [ ! -e .no-postinstall ]; then npm run setup; fi",
         "test": "mocha; prettier --write --check .",
-        "setup": "cd ../../ && npm install --save-dev husky@7.0.0 && npx husky install && npx husky add .husky/pre-commit 'npm test'"
+        "setup": "cd ../../ && npm install --save-dev husky@4.3.0 && npx husky@4.3.0 install && npx husky add .husky/pre-commit 'npm test'"
     },
     "dependencies": {
         "eslint": "^7.30.0",
