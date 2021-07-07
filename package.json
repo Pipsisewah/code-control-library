@@ -13,7 +13,7 @@
         "tprint": "echo 'hello world'",
         "install": "echo 'install would run this script'",
         "test": "mocha; prettier --write --check .",
-        "setup": "cd ../../ && npm install --save-dev husky@7.0.0"
+        "setup": "cd ../../ && npm install --save-dev husky@7.0.0 && npx husky install && npx husky add .husky/pre-commit 'npm test'"
     },
     "dependencies": {
         "eslint": "^7.30.0",
