@@ -2,7 +2,7 @@
     "name": "codecontrollibrary",
     "author": "Steven Lopes",
     "description": "Library to help enforce coding practices",
-    "version": "1.3.10",
+    "version": "1.3.11",
     "homepage": "https://slopesprogramming.com",
     "repository": {
         "type": "git",
@@ -10,8 +10,8 @@
     },
     "main": "src/index.js",
     "scripts": {
-      "preinstall": "if [ ! -e .no-postinstall ]; then npm run setup; fi",
-      "setup": "cd ../../ && npm ci --save-dev husky@4.3.0"
+      "postinstall": "if [ ! -e .no-postinstall ]; then npm run setup; fi",
+      "setup": "cd ../../ && npm explore husky -- npm run install"
     },
     "engines": {
         "node": ">=12.0"
